@@ -16,23 +16,29 @@ body {
 main {
     display: flex;
     max-width: 920px;
+    margin: 20px;
+}
+
+article {
+    display: flex;
     border-radius: 7px;
     overflow: hidden;
 }
 
 .box {
     padding: 50px;
+    position: relative;
 }
 
-.box:nth-child(1){
+.box:nth-child(1) {
     background-color: var(--bright-orange);
 }
 
-.box:nth-child(2){
+.box:nth-child(2) {
     background-color: var(--dark-cyan);
 }
 
-.box:nth-child(3){
+.box:nth-child(3) {
     background-color: var(--very-dark-cyan);
 }
 
